@@ -1,0 +1,58 @@
+﻿@page "/create-quiz"
+@inject QuizWebBlazor.Services.QuizDB QuizDb
+@using QuizWebBlazor.Models
+
+<PageTitle>Quiz Erstellen</PageTitle>
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+            <h3 class="card-title text-center mb-4">Erstelle ein neues Quiz</h3>
+
+            <div class="form-group mb-3">
+                <label for="title" class="form-label">Titel</label>
+                <input type="text" id="title" @bind="quiz.Title" class="form-control" placeholder="Quiz-Titel eingeben" />
+            </div>
+            <div class="form-group mb-3">
+                <label for="description" class="form-label">Beschreibung</label>
+                <textarea id="description" @bind="quiz.Description" class="form-control" placeholder="Quiz-Beschreibung eingeben"></textarea>
+            </div>
+
+            <button @onclick="SaveQuiz" class="btn btn-primary w-100">Quiz speichern</button>
+
+            @if (saveStatus != null)
+            {
+                <div class="alert alert-info mt-3" role="alert">
+                    @saveStatus
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private Quiz quiz = new Quiz();
+    private string saveStatus;
+
+    private void SaveQuiz()
+    {
+        try
+        {
+            QuizDb.OpenConnection("quizzes.db");
+            QuizDb.CreateTables();
+            QuizDb.InsertQuiz(quiz);
+            saveStatus = "Quiz erfolgreich gespeichert!";
+
+            // Formular nach dem Speichern leeren
+            quiz = new Quiz();
+        }
+        catch (Exception ex)
+        {
+            saveStatus = "Fehler beim Speichern des Quiz: " + ex.Message;
+        }
+        finally
+        {
+            QuizDb.CloseConnection();
+        }
+    }
+}

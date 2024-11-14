@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuizWebBlazor
+build_property.RootNamespace = QuizWebBlazor
+build_property.ProjectDir = C:\IPT6.1 neue version\quizwebapp\QuizWebBlazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\IPT6.1 neue version\quizwebapp\QuizWebBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Pages/CreateQuiz.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUXVpei5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Pages/EditQuiz.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFF1aXoucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Pages/SelectQuizToEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0UXVpelRvRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Pages/ViewQuizzes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1F1aXp6ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-85x15ld03w
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mbwhxj2fmf
+
+[C:/IPT6.1 neue version/quizwebapp/QuizWebBlazor/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

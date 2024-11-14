@@ -1,0 +1,42 @@
+﻿@page "/select-quiz-to-edit"
+@inject QuizWebBlazor.Services.QuizDB QuizDb
+@using QuizWebBlazor.Models
+
+<PageTitle>Quiz zum Bearbeiten auswählen</PageTitle>
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+            <h3 class="card-title text-center mb-4">Quiz zum Bearbeiten auswählen</h3>
+
+            @if (quizzes == null)
+            {
+                <p><em>Wird geladen...</em></p>
+            }
+            else
+            {
+                <ul class="list-group">
+                    @foreach (var quiz in quizzes)
+                    {
+                        <li class="list-group-item">
+                            <h4>@quiz.Title</h4>
+                            <p>@quiz.Description</p>
+                            <a href="/edit-quiz/@quiz.Id" class="btn btn-primary">Bearbeiten</a>
+                        </li>
+                    }
+                </ul>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Quiz> quizzes;
+
+    protected override void OnInitialized()
+    {
+        QuizDb.OpenConnection("quizzes.db");
+        quizzes = QuizDb.GetQuizzes();
+        QuizDb.CloseConnection();
+    }
+}

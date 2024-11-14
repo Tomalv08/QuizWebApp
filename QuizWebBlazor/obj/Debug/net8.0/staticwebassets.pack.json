@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\IPT6.1 neue version\\quizwebapp\\QuizWebBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuizWebBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\QuizWebBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\IPT6.1 neue version\\quizwebapp\\QuizWebBlazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\IPT6.1 neue version\\quizwebapp\\QuizWebBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\IPT6.1 neue version\\quizwebapp\\QuizWebBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\IPT6.1 neue version\\quizwebapp\\QuizWebBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\IPT6.1 neue version\\quizwebapp\\QuizWebBlazor\\wwwroot\\site.css",
+      "PackagePath": "staticwebassets\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QuizWebBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QuizWebBlazor.props",
+      "PackagePath": "build\\QuizWebBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QuizWebBlazor.props",
+      "PackagePath": "buildMultiTargeting\\QuizWebBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QuizWebBlazor.props",
+      "PackagePath": "buildTransitive\\QuizWebBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
